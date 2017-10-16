@@ -34,9 +34,15 @@ td{
 	padding:1px;
 	text-align:center;
 }
+#menu p{
+	position:relative;
+	bottom:2px;
+}
 #newgame{
 	float:left;
-	margin-left:25px;	
+	margin-left:25px;
+	position:relative;
+	bottom:5px;	
 }
 #newgame:hover{
 	cursor:pointer;
@@ -45,15 +51,19 @@ td{
 #gamemode{
 	float:right;
 	margin-right:25px;
+	position:relative;
+	bottom:5px;
 }
 #score{
 	
 }
 button{
 	background-color:blue;
-	font-size:20px;
+	font-size:22px;
 	font-family:sans-serif;
 	color:white;
 	border:1px solid black;
-	border-radius:15px;
+	border-radius:8px;
+	position:relative;
+	
 }
