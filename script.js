@@ -105,13 +105,13 @@ document.getElementById('modeeasy').addEventListener('click',function(){
 	}
 	document.getElementById('score').innerHTML="Which one ?";
 	gameOver=false;
-	document.getElementsByTagName('h1')[0].innerHTML=titlecolor;
+	document.getElementsByTagName('h1')[0].innerHTML=titlecolor.toUpperCase();
 	r1 = regexR.exec(titlecolor)[1];
 g1 = regexG.exec(titlecolor)[1];
 b1 = regexB.exec(titlecolor)[1];
 b2=b1.replace(g1,'');
 b3=b2.slice(2,b2.length);
-document.getElementsByTagName('h1')[1].innerHTML=rgbToHex(Number(r1), Number(g1),Number(b3)) ;
+document.getElementsByTagName('h1')[1].innerHTML=(rgbToHex(Number(r1), Number(g1),Number(b3))).toUpperCase() ;
 	
 });
 
