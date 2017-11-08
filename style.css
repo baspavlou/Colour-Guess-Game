@@ -31,18 +31,19 @@ td{
 	width:80%;
 	background-color:red;
 	margin:0 auto 10px auto;
-	padding:1px;
+	padding:3px 3px 15px 3px;
 	text-align:center;
 }
 #menu p{
 	position:relative;
-	bottom:2px;
+	
 }
 #newgame{
 	float:left;
 	margin-left:25px;
 	position:relative;
-	bottom:5px;	
+	bottom:4px;
+	
 }
 #newgame:hover{
 	cursor:pointer;
@@ -52,18 +53,32 @@ td{
 	float:right;
 	margin-right:25px;
 	position:relative;
-	bottom:5px;
+	bottom:6px;
 }
 #score{
-	
+	position: relative;
+	top:7px;
 }
 button{
 	background-color:blue;
 	font-size:22px;
 	font-family:sans-serif;
+	font-weight:bold;
 	color:white;
-	border:1px solid black;
-	border-radius:8px;
+	border:1px solid blue;
+	border-radius:4px;
+	padding:5px;
+	box-shadow: 2px 2px 1px rgb(28, 30, 33);
+	position:relative;
 	
+	
+}
+button:focus{
+	outline:0;
+}
+button:active{
+	top:2px;
+	left:2px;
+	box-shadow:0px 0px ;
 	
 }
